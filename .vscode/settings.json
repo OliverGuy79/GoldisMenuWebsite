@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/6dfcc624-ba4f-4e67-baab-2a5331aef7e5/resourceGroups/goldis-restaurant/providers/Microsoft.Web/sites/goldis-restaurant",
+  "appService.deploySubpath": "."
+}

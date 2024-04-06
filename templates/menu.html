@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menu Goldis 1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .imgbox {
+        display: grid;
+        height: 100%;
+      }
+      .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgbox">
+      <img
+        src="{{url_for('static', filename='/images/Menu Goldis 1.jpg')}}"
+        class="center-fit"
+      />
+    </div>
+
+    <div class="imgbox">
+      <img
+        src="{{url_for('static', filename='/images/Menu Goldis 2.jpg')}}"
+        class="center-fit"
+      />
+    </div>
+
+    <div class="imgbox">
+      <img
+        src="{{url_for('static', filename='/images/MENUAFRICAIN.jpg')}}"
+        class="center-fit"
+      />
+    </div>
+
+    <div class="imgbox">
+      <img
+        src="{{url_for('static', filename='/images/Boissons Menu.jpg')}}"
+        class="center-fit"
+      />
+    </div>
+
+    <div class="imgbox">
+      <img
+        src="{{url_for('static', filename='/images/Boissons Menu 2.jpg')}}"
+        class="center-fit"
+      />
+    </div>
+    <!--<img src= "{{url_for('static', filename='/images/Menu Goldis 1.jpg')}}" > -->
+  </body>
+</html>
